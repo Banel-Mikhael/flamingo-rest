@@ -3,6 +3,23 @@ body html{
     height: 100%;
 }
 
+
+/* navbar css  */
+
+
+
+
+/* end of navbar css */
+
+
+/*  main css   */
+
+
+
+
+/* end of main css */
+
+/*  footer css   */
 .footer-container{
     height: 100%;
     background-color: black;
@@ -68,10 +85,8 @@ a{
     }
     .contact-section{
         max-height:350px ;
-        max-width:  600px;;
+        max-width:  600px;
         padding-bottom: 50px;
-       
     }
-
-
   }
+  /* end of footer css */
