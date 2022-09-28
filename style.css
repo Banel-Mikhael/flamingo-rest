@@ -6,9 +6,12 @@ body html{
 
 /* navbar css  */
 
+.nav-img{
+    width: 100%;
+}
 .header-img {
     position: relative;
-
+   width: 100%;
 }
 .nav {
     display: grid;
@@ -428,4 +431,29 @@ a{
         padding-bottom: 50px;
     }
   }
+  @media only screen and (max-width: 250px) 
+  {
+    .footer-container{ 
+        max-width: 350px;
+   
+     max-height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .media-section{
+        max-height: 500px;
+        max-width:175px ;
+        padding-bottom: 80px;
+    }
+    svg{
+        padding-top: 25px;
+    }
+    .contact-section{
+        max-height:500px ;
+        max-width:  175px;
+        padding-bottom: 25px;
+    }
+}
   /* end of footer css */
