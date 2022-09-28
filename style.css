@@ -11,3 +11,102 @@
     left: 0;
     color: #CCCCCC;
 }
+.nav-list {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.nav-list li a:hover {
+    color: #C59D5F;
+}
+.icons {
+    margin-top: 35px;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.icons a {
+    text-decoration: none;
+    color: #CCCCCC;
+    margin-left: 15px;
+    font-size: 1.3rem;
+}
+
+.logo {
+
+    font-family: 'Passions Conflict', cursive;
+    color: #CCCCCC;
+    margin-top: 0;
+    margin-left: 70px;
+    font-size: 4rem;
+
+}
+
+.nav-list a {
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    color: #CCCCCC;
+    font-size: 1rem;
+
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.reservation {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.welcome {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: #C59D5F;
+    font-size: 6rem;
+    margin-bottom: 0;
+    line-height: 0.5;
+}
+
+.name-of-rest {
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Cabin', sans-serif; */
+
+    color: #CCCCCC;
+    font-size: 2.5rem;
+    margin-top: 0;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+
+}
+
+.line {
+    width: 25%;
+    margin-top: 0;
+    border-bottom: 0;
+}
+
+.reserve-text {
+    font-family: sans-serif;
+    color: #CCCCCC;
+    letter-spacing: 0.333em;
+}
+
+.reservation button {
+    font-family: 'Cabin', sans-serif;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    /* font-weight: 600; */
+    letter-spacing: 0.2em;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.reservation button:hover {
+    background-color: #C59D5F;
+}
