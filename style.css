@@ -33,6 +33,9 @@
     margin-left: 15px;
     font-size: 1.3rem;
 }
+.icons a:hover {
+    color: #C59D5F;
+}
 
 .logo {
 
@@ -75,8 +78,6 @@
 
 .name-of-rest {
     font-family: 'Source Sans Pro', sans-serif;
-    /* font-family: 'Cabin', sans-serif; */
-
     color: #CCCCCC;
     font-size: 2.5rem;
     margin-top: 0;
@@ -101,7 +102,6 @@
     font-family: 'Cabin', sans-serif;
     padding: 15px 30px;
     font-size: 1.1rem;
-    /* font-weight: 600; */
     letter-spacing: 0.2em;
     border-style: none;
     border-radius: 5px;
@@ -111,7 +111,7 @@
     background-color: #C59D5F;
 }
 
-/*media query*/
+/*media query for mobile size*/
 @media (max-width: 767px) {
     .nav-img {
         width: 100%;
@@ -169,7 +169,7 @@
         letter-spacing: 0.2em;
     }
 }
-
+/*for tablet size */
 @media (min-width: 768px) and (max-width: 1023px) {
     .nav-img {
         width: 100%;
